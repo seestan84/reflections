@@ -1,0 +1,17 @@
+Different operating systems have tools for easily comparing two files.
+Windows has FC, while Unix and Mac offers the diff utility.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+It makes keeping track of file version differences and allows the programmer to easily revert or go back to old file versions.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+The programmer has the option to determine if he/she is done with a logical feature or not.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A feature may require adding or modifying two or more files, hence it's logical to allow committing multiple files.
+
+How can you use the commands git log and git diff to view the history of files?
+git log displays the history of the commits of a repository as well as meta-data about the commit like commit id, timestamp and commit message. Using the commit id's from the git log command, we can then use them as the parameters for the git diff utility.
+
+How might using version control make you more confident to make changes that could break something?
+version control allows programmers to back track and check which commit introduced the bug in the first place.
